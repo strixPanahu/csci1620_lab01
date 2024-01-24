@@ -55,8 +55,8 @@ def vote_menu():
 def menu_validation(option):
     """
     Clean & validate user's navigation option
-    :param option: Menu option, single-char string; e.g. 'v', 'x'
-    :return:
+    :param option: Raw user input, single-char string; e.g. 'v', 'x'
+    :return: Validated option, single-char string; e.g. 'v', 'x'
     """
 
     option = option.strip().casefold()
